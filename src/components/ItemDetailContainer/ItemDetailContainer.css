@@ -1,0 +1,61 @@
+.ItemDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Mínimo alto de la pantalla */
+    background-color: #fffef3; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+}
+
+.ItemDetail {
+    max-width: 100%; /* Ancho máximo del contenido */
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espacio interno */
+}
+
+.ItemImg {
+    max-width: 500px; /* Imagen ajustada al contenedor */
+    height: auto; /* Altura automática */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+.ItemDetail h2 {
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.ItemDetail p {
+    font-size: 1rem; /* Tamaño de fuente del texto */
+    line-height: 1.5; /* Altura de línea */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+.ItemDetail .price {
+    font-size: 1.25rem; /* Tamaño de fuente del precio */
+    font-weight: bold; /* Negrita */
+    color: #535bf2; /* Color del precio */
+}
+
+.ItemDetail .description {
+    font-style: italic; /* Texto en cursiva */
+    color: #000000; /* Color del texto de descripción */
+}
+
+.ItemDetail .addToCartButton {
+    background-color: #646cff; /* Color de fondo del botón */
+    border-color: #646cff;
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño de fuente */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.ItemDetail .addToCartButton:hover {
+    background-color: #535bf2;
+    border-color: #484fde; /* Color de fondo del botón al pasar el ratón */
+}

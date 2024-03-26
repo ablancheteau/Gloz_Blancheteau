@@ -1,0 +1,45 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 24px;
+}
+
+.Form {
+    padding: 32px;
+    width: 400px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.Label {
+    display: block;
+    margin-bottom: 24px;
+    line-height: 3.5;
+}
+
+.Input {
+    width: calc(100% - 24px); /* Ajusta el ancho para tener en cuenta el relleno */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 16px; /* Reduce el margen inferior */
+    background-color: white;
+    color: #3e3e3e;
+}
+
+.Input:hover {
+    border-color: #646cff; /* Cambia el color del borde al pasar el mouse sobre el input */
+}
+
+/* Estilo para el estado active del input */
+.Input:focus {
+    border-color: #484fde; /* Cambia el color del borde cuando el input está activo (tiene el foco) */
+    box-shadow: 0 0 0 0.2rem rgba(139, 38, 255, 0.5);
+    color: #3e3e3e;
+}

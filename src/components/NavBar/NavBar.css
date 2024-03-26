@@ -1,0 +1,34 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: none; /* Color de fondo del navbar */
+    color: #fff; /* Color del texto */
+}
+
+.NavBar h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.Categories {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.Option {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.Option:hover {
+    color: #ccc; /* Color del texto al pasar el ratón */
+}
+
+.ActiveOption {
+    color: #646cff; /* Color del texto de la opción activa */
+}
