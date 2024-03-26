@@ -47,8 +47,8 @@
 
 .Option {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #646cff;
+    border-color: #646cff;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -65,14 +65,14 @@
 
 .Option:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #535bf2;
+    border-color: #484fde;
 }
 
 .Option:focus,
 .Option.focus {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    background-color: #535bf2;
+    border-color: #484fde;
+    box-shadow: 0 0 0 0.2rem rgba(139, 38, 255, 0.5);
 }

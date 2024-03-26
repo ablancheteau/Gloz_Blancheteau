@@ -1,3 +1,4 @@
+import './CheckoutForm.css'
 import { useState } from 'react'
 
 const CheckoutForm = ({ onConfirm }) => {
@@ -32,7 +33,7 @@ const CheckoutForm = ({ onConfirm }) => {
                     Teléfono
                     <input 
                     className='Input' 
-                    type='number' 
+                    type='text' 
                     value={phone} 
                     onChange={({target}) => setPhone(target.value)}
                     placeholder='Ingresa tu teléfono'/>

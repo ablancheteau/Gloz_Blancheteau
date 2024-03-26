@@ -1,0 +1,37 @@
+.Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px; /* Espacio entre los elementos */
+}
+
+.ItemInfo {
+    display: flex;
+    align-items: center;
+}
+
+.ItemThumbnail {
+    width: 50px; /* Tamaño de la miniatura del artículo */
+    height: 50px;
+    margin-right: 16px; /* Espacio entre la miniatura y la información del artículo */
+}
+
+.ItemDetails {
+    flex-grow: 1; /* Para que la información del artículo ocupe todo el espacio disponible */
+}
+
+.ItemActions {
+    display: flex;
+    align-items: center;
+}
+
+.Total {
+    margin-top: 16px; /* Espacio entre los elementos */
+}
