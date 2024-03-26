@@ -3,19 +3,20 @@ import './ItemList.css';
 import Item from '../Item/Item';
 
 const ItemList = ({ products }) => {
-    const allSameCategory = products.every((prod, index, arr) => prod.category === arr[0].category);
-
-    const category = allSameCategory ? products[0].category : null;
+    if (!products || !Array.isArray(products)) {
+        return <div>No hay productos disponibles.</div>;
+    }
 
     return (
         <div className='item-list'>
-            {category && <h1>Mundo {category}</h1>}
             <div className='ListGroup'>
-                {products.map(prod => <Item key={prod.id} {...prod} />)}
+                {products.map(prod => prod && prod.category && <Item key={prod.id} {...prod} />)}
             </div>
         </div>
     );
 };
 
+
 export default ItemList;
+
 
